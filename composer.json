@@ -1,0 +1,25 @@
+{
+    "name": "obsnomad/sso",
+    "description": "PHP based Single Sign-on package",
+    "version": "0.1.0",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "akatelnikov",
+            "email": "akatelnikov@corp.acesse.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.1",
+        "laravel/framework": "^5.6",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "ObsNomad\\SSO\\": "src"
+        }
+    }
+}
